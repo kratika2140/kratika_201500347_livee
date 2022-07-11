@@ -1,0 +1,53 @@
+a{
+    font-size:large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(222, 96, 98);
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 45px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+#photo{
+    margin-top: 150px;
+    color: black;
+    display: flex;
+    float: right;
+}
+ 
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    display: inline-block;
+}
+
+div{
+    color: rgb(222, 96, 98);
+    display: inline-block;
+}
+
+ 
+h1{
+    color: rgb(75, 75, 114);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:80px;
+}
+h5{
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: black;
+}

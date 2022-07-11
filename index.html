@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live coding</title>
+    <link rel="stylesheet" href="live.css">
+   
+</head>
+<body>
+    <nav>
+    <h3><a href="#" style="color:aliceblue ;">R </a></h3> &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="#" style="color:rgb(222, 96, 98) ;">Home &nbsp; &nbsp; &nbsp; &nbsp;   </a>
+    <a href="#" style="color:dimgray;">Project &nbsp; &nbsp;  &nbsp; &nbsp; </a>
+    <a href="#"  style="color:dimgray;">Pages &nbsp; &nbsp; &nbsp;  &nbsp; </a>
+    <a href="#"  style="color:dimgray;">Elements &nbsp; &nbsp; &nbsp; &nbsp;  </a>
+    <a href="#"  style="color:dimgray;"> Blog &nbsp; &nbsp;  &nbsp; &nbsp; </a>
+    <a href="#"  style="color:dimgray;">Shop &nbsp; &nbsp; &nbsp; &nbsp; </a>
+    <a href="#"  style="color:dimgray;">Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    <a href="#" style="color: rgb(222, 96, 98);"> Buy Rogan ---> </a>
+    </nav>
+   
+    <div id="photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxsHQhsR2wjMx9EunJPck--BaMLf63KPBrg&usqp=CAU" alt=" DIGITAL AGENCY IMAGE " height="250px" width="450px">
+    </div>
+    <h4><div class="first">70 % Off</div> for first 3 months</h4>
+   
+
+    <p>
+        <h1>
+            Digital Agency <br> with Excellence <br> Services.
+        </h1>
+    </p>
+    <h5>The 3 golden rules proffesional graphic designer don't</h5>
+
+
+</div>
+<div class="footer">
+    <h2 id="n">[Student Name]</h2>
+    <h2 id="roll">[University Roll No]</h2>
+    <h2 id="uni">[Gla University,Mathura]</h2>
+    <h2 id="date"></h2>
+</div>
+
+    <script>
+        var n = document.getElementById("n");
+        var roll = document.getElementById("roll");
+        var date = document.getElementById("date");
+
+        n.innerHTML = "[Kratika Rathore]";
+        roll.innerHTML = "[201500347]";
+
+        var day = new Date();
+        var d = day.getDate();
+        var month = day.getMonth();
+        var year = day.getFullYear();
+
+        date.innerHTML = `[${d}-${month}-${year}]`;
+
+    </script>
+
+</body>
+</html> 
